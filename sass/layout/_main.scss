@@ -1,0 +1,45 @@
+main {
+  .team {
+    padding-top: 1em;
+    h2 {
+      @extend %h2;
+      color: $black;
+      font-size: 2em;
+      font-weight: 600;
+      margin-bottom: 1em;
+    }
+    ul {
+      padding-left: 0;
+      text-align: center;
+      li {
+        padding: 1.5em;
+        img {
+          width: 50%;
+          border-radius: 50%;
+        }
+      }
+    }
+    
+  }
+
+  .signup {
+    margin-bottom:5em;;
+    @include multi-bg(-40,$first-color,$second-color,$banner-image); 
+    background-size:cover;
+    text-align: center; 
+    padding: 1em;
+      img {
+        display: inline-block;
+        margin-bottom: 1em;
+        width: 15%;
+        @include rotate(90);
+        vertical-align: middle;
+      } 
+      h2 {
+        @extend %h2;
+        margin: 0 0.5em;
+        font-size: 2em;
+        display: inline-block;
+      } 
+  }
+}

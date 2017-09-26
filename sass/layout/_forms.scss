@@ -1,0 +1,19 @@
+#signup {
+  //margin: 0 auto;
+    input {
+      display: inline-block;
+      margin-bottom: 1em;
+      text-align: center;
+      width: 60%;
+      padding: 1em;
+      &:last-child {
+        @extend %button;
+        background: yellow;
+      }
+    }
+    textarea {
+      display: inline-block;
+      margin-bottom: 1em;
+      width: 60%;
+    }
+}

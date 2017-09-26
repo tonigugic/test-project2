@@ -1,0 +1,242 @@
+/*reset browser styles*/
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.2;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol {
+  padding-left: 1.4em;
+}
+
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/*end reset browser styles*/
+body {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+header .banner a, nav ul li a, #signup input:last-child {
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.3em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+header .banner h2, main .team h2, main .signup h2, header .banner h1 {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2em;
+  color: #fff;
+}
+
+header .banner h2, main .team h2, main .signup h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+header .banner, footer div {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+
+.hamburger-icon {
+  text-align: right;
+}
+
+header {
+  overflow: hidden;
+  background: -webkit-linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background: -moz-linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background: -o-linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background: linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background-size: cover;
+}
+header .banner {
+  text-align: center;
+  padding-top: 5em;
+}
+header .banner h2 {
+  margin-bottom: 2.5em;
+}
+header .banner h2 img {
+  width: 8%;
+  vertical-align: middle;
+}
+header .banner h1 img {
+  width: 15%;
+  vertical-align: middle;
+}
+header .banner p {
+  color: #fff;
+  margin-bottom: 5em;
+}
+header .banner a {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  background-color: yellow;
+  color: #555;
+}
+
+main .team {
+  padding-top: 1em;
+}
+main .team h2 {
+  color: #000;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+main .team ul {
+  padding-left: 0;
+  text-align: center;
+}
+main .team ul li {
+  padding: 1.5em;
+}
+main .team ul li img {
+  width: 50%;
+  border-radius: 50%;
+}
+main .signup {
+  margin-bottom: 5em;
+  background: -webkit-linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background: -moz-linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background: -o-linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background: linear-gradient(-40deg, rgba(112, 64, 245, 0.8), rgba(181, 198, 245, 0.8)), url(../images/photo/slika77.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 1em;
+}
+main .signup img {
+  display: inline-block;
+  margin-bottom: 1em;
+  width: 15%;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  vertical-align: middle;
+}
+main .signup h2 {
+  margin: 0 0.5em;
+  font-size: 2em;
+  display: inline-block;
+}
+
+footer {
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+footer div {
+  padding: 1em;
+  text-align: center;
+}
+footer div img {
+  width: 10%;
+}
+footer div p {
+  text-align: center;
+  font-size: 1em;
+}
+
+nav {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 300;
+}
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: none;
+}
+nav ul li a {
+  display: block;
+  border-bottom: 5px solid #fff;
+  font-size: 1.75em;
+}
+nav ul li:last-child a {
+  border-bottom: none;
+}
+
+#signup input {
+  display: inline-block;
+  margin-bottom: 1em;
+  text-align: center;
+  width: 60%;
+  padding: 1em;
+}
+#signup input:last-child {
+  background: yellow;
+}
+#signup textarea {
+  display: inline-block;
+  margin-bottom: 1em;
+  width: 60%;
+}
+
+/*# sourceMappingURL=style.css.map */

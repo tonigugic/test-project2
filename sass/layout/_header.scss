@@ -1,0 +1,35 @@
+header {
+  overflow: hidden;
+  @include multi-bg(-40,$first-color,$second-color,$banner-image); 
+  background-size:cover;
+    .banner {
+      @extend %wrapper;
+      text-align: center;
+      padding-top: 5em;
+        h2 {
+          @extend %h2;
+          margin-bottom: 2.5em;
+          img {
+            width: 8%;
+            vertical-align: middle;
+          }
+        }
+        h1 {
+          @extend %h1;
+          img {
+            width: 15%;
+            vertical-align: middle;
+          }
+        }
+        p {
+          color: $white;
+          margin-bottom: 5em;
+        }
+        a {
+          @extend %button;
+          @include border-radius(10);
+          background-color: yellow;
+          color: #555;
+        }
+}
+}

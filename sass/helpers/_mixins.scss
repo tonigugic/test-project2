@@ -1,0 +1,26 @@
+//rotation
+@mixin rotate($deg) {
+  -webkit-transform: rotate(#{$deg}deg);
+          transform: rotate(#{$deg}deg);
+}
+
+//multiple background
+@mixin multi-bg($deg, $color1, $color2, $img2) {
+  background: -webkit-linear-gradient(#{$deg}deg,$color1, 
+      $color2),$img2;
+  background: -moz-linear-gradient(#{$deg}deg,$color1, 
+      $color2),$img2;
+  background: -o-linear-gradient(#{$deg}deg,$color1, 
+      $color2),$img2;
+  background: linear-gradient(#{$deg}deg,$color1, 
+      $color2),$img2;  
+}
+
+//border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: #{$radius}px;
+     -moz-border-radius: #{$radius}px;
+      -ms-border-radius: #{$radius}px;
+          border-radius: #{$radius}px;
+}
+

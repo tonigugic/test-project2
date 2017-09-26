@@ -1,0 +1,22 @@
+footer {
+  background-color: $black;
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  color: $white;
+   div {
+    @extend %wrapper;
+    padding: 1em;
+    text-align: center;
+      img {
+        width: 10%;
+      }
+      p {
+        text-align: center;
+        font-size: 1em;
+      }
+   }
+
+   
+}
