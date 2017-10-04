@@ -18,12 +18,11 @@ main {
           border-radius: 50%;
         }
       }
-    }
-    
+    }   
   }
 
   .signup {
-    margin-bottom:5em;;
+    margin-bottom:5em;
     @include multi-bg(-40,$first-color,$second-color,$banner-image); 
     background-size:cover;
     text-align: center; 
